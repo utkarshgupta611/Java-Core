@@ -10,6 +10,11 @@ public class MainClass {
 		AppConfig obj = AppConfig.getInstance();
 		//now every obj created will be static so only one object will create
 		
+		AppConfig obj1 = AppConfig.getInstance();
+		AppConfig obj2= AppConfig.getInstance();
+		AppConfig obj3 = AppConfig.getInstance();
+		
+		
 	}
 
 }
